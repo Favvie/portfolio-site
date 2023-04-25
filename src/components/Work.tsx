@@ -6,6 +6,7 @@ import AltSchool from "../assets/altschool.png";
 import ProjectCard from "../atoms/ProjectCard";
 import Afen from "../assets/afen.png";
 import Food from "../assets/Food.png";
+import Strive from '../assets/strive-mts.png'
 
 const Work = () => {
 	return (
@@ -20,12 +21,7 @@ const Work = () => {
 
 				{/* Grid container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-					<ProjectCard
-						projectPhoto={Car}
-						projectLink="https://favvie-cars.netlify.app/"
-						projectCode="https://github.com/Favvie/react-router-with-framer-motion-animation"
-						projectDescription="Cars Display"
-					/>
+					
 					<ProjectCard
 						projectPhoto={Travel}
 						projectLink="https://favvie-travel-app.netlify.app/"
@@ -38,17 +34,24 @@ const Work = () => {
 						projectCode="https://github.com/Favvie/elixr"
 						projectDescription="Houses for shortletting"
 					/>
-					<ProjectCard
-						projectPhoto={Afen}
-						projectLink="https://afengroup.netlify.app/"
-						projectCode="https://github.com/Favvie/afengroups"
-						projectDescription="An NFT project"
-					/>
+
 					<ProjectCard
 						projectPhoto={AltSchool}
 						projectLink="https://favour-abangwu-altschool-vue-exam.vercel.app/"
 						projectCode="https://github.com/Favvie/altschool-vue-exam/"
-						projectDescription="A drones event landing page"
+						projectDescription="E-commerce web application with authentication"
+					/>
+					<ProjectCard
+						projectPhoto={Strive}
+						projectLink="https://strive-mts.vercel.app/"
+						projectCode="https://github.com/Favvie/project-mts"
+						projectDescription="Project management system"
+					/>
+					<ProjectCard
+						projectPhoto={Car}
+						projectLink="https://favvie-cars.netlify.app/"
+						projectCode="https://github.com/Favvie/react-router-with-framer-motion-animation"
+						projectDescription="Cars Display"
 					/>
 					<ProjectCard
 						projectPhoto={Food}

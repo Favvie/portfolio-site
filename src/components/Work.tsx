@@ -2,7 +2,7 @@ import React from "react";
 import Car from "../assets/cars.png";
 import Travel from "../assets/travel.png";
 import Rental from "../assets/rentals.png";
-import Drone from "../assets/drone.png";
+import AltSchool from "../assets/altschool.png";
 import ProjectCard from "../atoms/ProjectCard";
 import Afen from "../assets/afen.png";
 import Food from "../assets/Food.png";
@@ -45,9 +45,9 @@ const Work = () => {
 						projectDescription="An NFT project"
 					/>
 					<ProjectCard
-						projectPhoto={Drone}
-						projectLink="https://drone-event.netlify.app/"
-						projectCode="https://github.com/Favvie/drone-event-landing-page"
+						projectPhoto={AltSchool}
+						projectLink="https://favour-abangwu-altschool-vue-exam.vercel.app/"
+						projectCode="https://github.com/Favvie/altschool-vue-exam/"
 						projectDescription="A drones event landing page"
 					/>
 					<ProjectCard

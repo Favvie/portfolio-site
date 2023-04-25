@@ -21,6 +21,12 @@ const Work = () => {
 
 				{/* Grid container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+					<ProjectCard
+						projectPhoto={Strive}
+						projectLink="https://strive-mts.vercel.app/"
+						projectCode="https://github.com/Favvie/project-mts"
+						projectDescription="Project management system"
+					/>
 					
 					<ProjectCard
 						projectPhoto={Travel}
@@ -41,12 +47,7 @@ const Work = () => {
 						projectCode="https://github.com/Favvie/altschool-vue-exam/"
 						projectDescription="E-commerce web application with authentication"
 					/>
-					<ProjectCard
-						projectPhoto={Strive}
-						projectLink="https://strive-mts.vercel.app/"
-						projectCode="https://github.com/Favvie/project-mts"
-						projectDescription="Project management system"
-					/>
+					
 					<ProjectCard
 						projectPhoto={Car}
 						projectLink="https://favvie-cars.netlify.app/"

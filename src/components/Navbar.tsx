@@ -12,61 +12,84 @@ const Navbar = () => {
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
 			<div>
-				<Link to="home" smooth={true} offset={50} duration={500}>
-					<img src={Logo} alt="Logo" style={{ width: "50px" }} />
+				<Link
+					to="home"
+					smooth={true}
+					offset={50}
+					duration={500}>
+					<img
+						src={Logo}
+						alt="Logo"
+						style={{ width: "50px" }}
+					/>
 				</Link>
 			</div>
 
 			{/* main menu */}
 			<ul className="md:flex hidden">
 				<li>
-					<Link to="home" smooth={true} offset={50} duration={500}>
+					<Link
+						to="home"
+						smooth={true}
+						offset={50}
+						duration={500}>
 						Home
 					</Link>
 				</li>
 				<li>
-					<Link to="about" smooth={true} offset={50} duration={500}>
+					<Link
+						to="about"
+						smooth={true}
+						offset={50}
+						duration={500}>
 						About
 					</Link>
 				</li>
 				<li>
-					<Link to="skills" smooth={true} offset={50} duration={500}>
+					<Link
+						to="skills"
+						smooth={true}
+						offset={50}
+						duration={500}>
 						Skills
 					</Link>
 				</li>
 				<li>
-					<Link to="work" smooth={true} offset={50} duration={500}>
+					<Link
+						to="work"
+						smooth={true}
+						offset={50}
+						duration={500}>
 						Work
 					</Link>
 				</li>
 				<li>
-					<Link to="contact" smooth={true} offset={50} duration={500}>
+					<Link
+						to="contact"
+						smooth={true}
+						offset={50}
+						duration={500}>
 						Contact
 					</Link>
 				</li>
 			</ul>
 
 			{/* Hamburger */}
-			<div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
+			<div
+				onClick={handleClick}
+				className="md:hidden z-10 cursor-pointer">
 				{!nav ? <FaBars /> : <FaTimes />}
 			</div>
 
 			{/* Mobile menu */}
-			<ul
-				className={
-					!nav
-						? "hidden"
-						: "absolute top-0 left-0 flex flex-col justify-center bg-[#0a192f]  w-full h-screen items-center"
-				}
-			>
+			<ul className={!nav ? "hidden" : "absolute top-0 left-0 flex flex-col justify-center bg-[#0a192f]  w-full h-screen items-center"}>
 				<li className="py-4 text-4xl">
 					<Link
 						to="home"
 						onClick={handleClick}
 						smooth={true}
 						offset={50}
-						duration={500}
-					>
+						duration={500}>
 						Home
 					</Link>
 				</li>
@@ -76,8 +99,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						smooth={true}
 						offset={50}
-						duration={500}
-					>
+						duration={500}>
 						About
 					</Link>
 				</li>
@@ -87,8 +109,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						smooth={true}
 						offset={-50}
-						duration={500}
-					>
+						duration={500}>
 						Skills
 					</Link>
 				</li>
@@ -98,8 +119,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						smooth={true}
 						offset={-80}
-						duration={500}
-					>
+						duration={500}>
 						Work
 					</Link>
 				</li>
@@ -109,8 +129,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						smooth={true}
 						offset={-50}
-						duration={500}
-					>
+						duration={500}>
 						Contact
 					</Link>
 				</li>
@@ -140,10 +159,9 @@ const Navbar = () => {
 
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
 						<a
-							href="https://drive.google.com/file/d/1H-GK6Sg7yUguXCf4gaQbqX1zXBCGPDTU/view?usp=share_link"
+							href="https://drive.google.com/file/d/1NP2KxLscxOmMJCLWF8gm6Gt6766Gk-2b/view?usp=sharing"
 							download
-							className="flex justify-between items-center w-full text-gray-300"
-						>
+							className="flex justify-between items-center w-full text-gray-300">
 							Resume
 							<BsFillPersonLinesFill size={30} />
 						</a>

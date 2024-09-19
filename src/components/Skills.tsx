@@ -5,6 +5,9 @@ import JavaScript from "../assets/javascript.png";
 import REACT from "../assets/react.png";
 import GITHUB from "../assets/github.png";
 import TAILWIND from "../assets/tailwind.png";
+import SOLIDITY from "../assets/solidity.png";
+import TYPESCRIPT from "../assets/typescript.png";
+import ETHERS from "../assets/ethers.png";
 import SkillCard from "../atoms/SkillCard";
 const Skills = () => {
 	return (
@@ -25,6 +28,10 @@ const Skills = () => {
 					<SkillCard skill="REACT" img={REACT} />
 					<SkillCard skill="GITHUB" img={GITHUB} />
 					<SkillCard skill="TAILWIND" img={TAILWIND} />
+					<SkillCard skill="SOLIDITY" img={SOLIDITY} />
+					<SkillCard skill="TYPESCRIPT" img={TYPESCRIPT} />
+					<SkillCard skill="ETHERS" img={ETHERS} />
+					
 				</div>
 			</div>
 		</div>

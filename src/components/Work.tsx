@@ -1,7 +1,7 @@
 import React from "react";
 import Car from "../assets/cars.png";
 import Travel from "../assets/travel.png";
-import Rental from "../assets/rentals.png";
+import SecureData from "../assets/securedata.png";
 import AltSchool from "../assets/altschool.png";
 import ProjectCard from "../atoms/ProjectCard";
 import Afen from "../assets/afen.png";
@@ -37,6 +37,13 @@ const Work = () => {
 						projectDescription="Nexascale asset management platform"
 					/>
 					<ProjectCard
+						projectPhoto={SecureData}
+						projectLink="https://secure-data.on-fleek.app/"
+						projectCode="https://github.com/Favvie/"
+						projectDescription="Secure Data"
+					/>
+
+					<ProjectCard
 						projectPhoto={Strive}
 						projectLink="https://strive-mts.vercel.app/"
 						projectCode="https://github.com/Favvie/project-mts"
@@ -50,12 +57,6 @@ const Work = () => {
 						projectDescription="E-commerce web application with authentication"
 					/>
 
-					<ProjectCard
-						projectPhoto={Car}
-						projectLink="https://favvie-cars.netlify.app/"
-						projectCode="https://github.com/Favvie/react-router-with-framer-motion-animation"
-						projectDescription="Cars Display"
-					/>
 					<ProjectCard
 						projectPhoto={Food}
 						projectLink="https://deliciouss-recipes.netlify.app/"

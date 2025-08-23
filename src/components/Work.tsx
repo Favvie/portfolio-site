@@ -9,6 +9,7 @@ import Food from "../assets/Food.png";
 import Strive from "../assets/strive-mts.png";
 import TempOwn from "../assets/tempown.png";
 import Nexascale from "../assets/nexascale-asset.png";
+import CitySpace from "../assets/cityspace.png";
 
 const Work = () => {
 	return (
@@ -24,12 +25,11 @@ const Work = () => {
 				{/* Grid container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					<ProjectCard
-						projectPhoto={TempOwn}
-						projectLink="https://tempown-clone.vercel.app/"
-						projectCode="https://github.com/Favvie/tempown-clone"
-						projectDescription="Temporary Rental Service"
+						projectPhoto={CitySpace}
+						projectLink="https://cityspacesandbookings.com/"
+						projectCode="https://github.com/Favvie/cityspace-clone"
+						projectDescription="City Spaces and Bookings"
 					/>
-
 					<ProjectCard
 						projectPhoto={Nexascale}
 						projectLink="https://nexascale-asset.web.app/"
@@ -37,17 +37,17 @@ const Work = () => {
 						projectDescription="Nexascale asset management platform"
 					/>
 					<ProjectCard
+						projectPhoto={TempOwn}
+						projectLink="https://tempown-clone.vercel.app/"
+						projectCode="https://github.com/Favvie/tempown-clone"
+						projectDescription="Temporary Rental Service"
+					/>
+
+					<ProjectCard
 						projectPhoto={SecureData}
 						projectLink="https://secure-data.on-fleek.app/"
 						projectCode="https://github.com/Favvie/"
 						projectDescription="Secure Data"
-					/>
-
-					<ProjectCard
-						projectPhoto={Strive}
-						projectLink="https://strive-mts.vercel.app/"
-						projectCode="https://github.com/Favvie/project-mts"
-						projectDescription="Project management system"
 					/>
 
 					<ProjectCard
